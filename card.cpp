@@ -1,45 +1,80 @@
-// FILE: card_demo.cpp
-// This is a small demonstration program showing how the Card and Deck classes are used.
-#include <iostream>    // Provides cout and cin
-#include <cstdlib>     // Provides EXIT_SUCCESS
 #include "card.h"
-#include "player.h"
 #include "deck.h"
+#include <cstdlib>
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+#include <sstream>
 
 using namespace std;
 
+Card::Card() {
+    myRank = 1;
+    mySuit = spades;
+}
 
-// PROTOTYPES for functions used by this demonstration program:
-void dealHand(Deck &d, Player &p, int numCards);
+Card::Card(int rank, Suit s) {
+    myRank = rank;
+    mySuit = s;
+}
 
-
-
-
-int main( )
-{
-    int numCards = 5;
-    
-    Player p1("Joe");
-    Player p2("Jane");
-    
-    Deck d;  //create a deck of cards
-    d.shuffle();
-    
-    dealHand(d, p1, numCards);
-    dealHand(d, p2, numCards);
-       
-    cout << p1.getName() <<" has : " << p1.showHand() << endl;
-    cout << p2.getName() <<" has : " << p2.showHand() << endl;
-    
-    return EXIT_SUCCESS;  
+string Card::toString() const {
+    return rankString(myRank)+suitString(mySuit);
 }
 
 
-
-void dealHand(Deck &d, Player &p, int numCards)
-{
-   for (int i=0; i < numCards; i++)
-      p.addCard(d.dealCard());
+bool Card::sameSuitAs(const Card& c) const {
+    if (mySuit == c.mySuit) {
+        return true;
+    }
+    else {
+        return false;
+    }
 }
-   
 
+int Card::getRank() const {
+    return myRank;
+}
+
+string Card::suitString(Suit s) const {
+    switch (s) {
+        case 0: return "s"; break;
+        case 1: return "h"; break;
+        case 2: return "d"; break;
+        case 3: return "c"; break;
+    }
+}
+
+string Card::rankString(int r) const {
+    switch (r) {
+        case 1: return "A"; break;
+        case 11: return "J"; break;
+        case 12: return "Q"; break;
+        case 13: return "K"; break;
+    }
+    return to_string(r);
+    //push back static
+}
+
+bool Card::operator == (const Card& rhs) const {
+    if (mySuit == rhs.mySuit && myRank == rhs.myRank) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+bool Card::operator != (const Card& rhs) const {
+    if (mySuit != rhs.mySuit || myRank != rhs.myRank) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+ostream& operator<<(ostream &out, const Card &c) {
+    out << c.toString();
+    return out;
+}
