@@ -12,6 +12,7 @@
 // returns each card in the deck after shuffling.
 //
 // Calling shuffle again replenishes the deck with 52 cards.
+// Iris Ham and Sam Wang
 
 #ifndef _DECK_H
 #define _DECK_H

@@ -19,6 +19,7 @@
 // string suitString() -- returns "s", "h", "d" or "c"
 //
 // Note that the Ace is represented by 1 and the King by 13
+// Iris Ham and Sam Wang
 
 #ifndef _CARD_H
 #define _CARD_H
