@@ -7,6 +7,7 @@
 #include <string>
 #include <sstream>
 #include <vector>
+#include <time.h>
 
 using namespace std;
 
@@ -24,7 +25,7 @@ bool Player::checkHandForBook(Card &c1, Card &c2) {
     for (int i = 0; i < size; i++) {
         for (int j = 0; j < size; j++) {
             if (i != j) {
-                if (myHand[i].getRank == myHand[j].getRank) {
+                if (myHand[i].getRank() == myHand[j].getRank()) {
                     c1 = myHand[i];
                     c2 = myHand[j];
                     return true;
@@ -38,7 +39,7 @@ bool Player::checkHandForBook(Card &c1, Card &c2) {
 bool Player::rankInHand(Card c) const {
     int size = myHand.size();
     for (int i = 0; i < size; i++) {
-        if (myHand[i].getRank == c.getRank) {
+        if (myHand[i].getRank() == c.getRank()) {
             return true;
         }
     }
