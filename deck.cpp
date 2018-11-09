@@ -22,7 +22,7 @@ Deck::Deck() {
 void Deck::shuffle() {
     srand (time(NULL));
 
-    for (int i = 0; i < 1000; i++) {
+    for (int i = 1; i < 1000; i++) {
         int rand1 = rand() % size();
         int rand2 = rand() % size();
         Card tempCard = myCards[rand1];

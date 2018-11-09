@@ -47,11 +47,23 @@ bool Player::rankInHand(Card c) const {
 }
 
 Card Player::chooseCardFromHand() const {
-    srand (time(NULL));
     int size = myHand.size();
-    int rand1 = rand() % size;
+    int rand1;
+    for (int i = 1; i < 1000; i++) {
+        rand1 = rand() % size;
+    }
 
     return myHand[rand1];
+}
+
+Card Player::removeCardFromHand(Card c) {
+    for (int i = 0; i < myHand.size(); i++) {
+        if (c.getRank() == myHand[i].getRank()) {
+            Card returnCard = myHand[i];
+            myHand.erase(myHand.begin()+i);
+            return returnCard;
+        }
+    } 
 }
 
 string Player::showHand() const {
