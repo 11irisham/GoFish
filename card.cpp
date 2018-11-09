@@ -46,14 +46,17 @@ string Card::suitString(Suit s) const {
 }
 
 string Card::rankString(int r) const {
+    string s;
     switch (r) {
         case 1: return "A"; break;
+        case 10: return "10"; break;
         case 11: return "J"; break;
         case 12: return "Q"; break;
         case 13: return "K"; break;
     }
-    return to_string(r);
-    //push back static
+    //return to_string(r);
+    s.push_back(static_cast<char>(r+48));
+    return s;
 }
 
 bool Card::operator == (const Card& rhs) const {

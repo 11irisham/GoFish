@@ -1,6 +1,239 @@
 Hammy has a pair in its dealt hand
-Hammy books the Q.
-Hammy has a pair in its dealt hand
 Hammy books the 2.
+Hammy has a pair in its dealt hand
+Hammy books the 8.
+Hammy has a pair in its dealt hand
+Hammy books the A.
+Samantha has a pair in dealt hand
+Samantha books the A.
+Samantha has a pair in dealt hand
+Samantha books the 5.
+Samantha has a pair in dealt hand
+Samantha books the 9.
 Samantha has a pair in dealt hand
 Samantha books the 3.
+Hammy asks - Do you have a 5?
+Samantha says - Go Fish.
+Hammy draws K.
+Hammy has found a pair with the drawn card
+Hammy books the 5.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws Q.
+Samantha has found a pair with the drawn card
+Samantha books the 2.
+
+Hammy asks - Do you have a J?
+Samantha says - Go Fish.
+Hammy draws 4.
+Hammy has found a pair with the drawn card
+Hammy books the K.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws 7.
+Samantha has found a pair with the drawn card
+Samantha books the Q.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws K.
+Hammy has found a pair with the drawn card
+Hammy books the 4.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws 9.
+Samantha has found a pair with the drawn card
+Samantha books the 7.
+
+Hammy asks - Do you have a J?
+Samantha says - Go Fish.
+Hammy draws 5.
+Hammy has found a pair with the drawn card
+Hammy books the K.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws 4.
+Samantha has found a pair with the drawn card
+Samantha books the 9.
+
+Hammy asks - Do you have a 5?
+Samantha says - Go Fish.
+Hammy draws 4.
+Hammy has found a pair with the drawn card
+Hammy books the 5.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws 2.
+Samantha has found a pair with the drawn card
+Samantha books the 4.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws J.
+Hammy has found a pair with the drawn card
+Hammy books the J.
+
+Samantha asks - Do you have a 2?
+Hammy says - Go Fish.
+Samantha draws Q.
+Samantha has found a pair with the drawn card
+Samantha books the 2.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 9.
+
+Samantha asks - Do you have a Q?
+Hammy says - Go Fish.
+Samantha draws 7.
+Samantha has found a pair with the drawn card
+Samantha books the Q.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 6.
+Hammy has found a pair with the drawn card
+Hammy books the 9.
+
+Samantha asks - Do you have a 7?
+Hammy says - Go Fish.
+Samantha draws 3.
+Samantha has found a pair with the drawn card
+Samantha books the 7.
+
+Hammy asks - Do you have a 6?
+Samantha says - Go Fish.
+Hammy draws K.
+Hammy has found a pair with the drawn card
+Hammy books the 6.
+
+Samantha asks - Do you have a 3?
+Hammy says - Go Fish.
+Samantha draws 9.
+Samantha has found a pair with the drawn card
+Samantha books the 3.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws J.
+Hammy has found a pair with the drawn card
+Hammy books the K.
+
+Samantha asks - Do you have a 9?
+Hammy says - Go Fish.
+Samantha draws K.
+Samantha has found a pair with the drawn card
+Samantha books the 9.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 3.
+Hammy has found a pair with the drawn card
+Hammy books the J.
+
+Samantha asks - Do you have a K?
+Hammy says - Go Fish.
+Samantha draws 8.
+Samantha has found a pair with the drawn card
+Samantha books the K.
+
+Hammy asks - Do you have a 3?
+Samantha says - Go Fish.
+Hammy draws J.
+Hammy has found a pair with the drawn card
+Hammy books the 3.
+
+Samantha asks - Do you have a 10?
+Hammy says - Go Fish.
+Samantha draws 8.
+Samantha has found a pair with the drawn card
+Samantha books the 8.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws A.
+Hammy has found a pair with the drawn card
+Hammy books the J.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws 10.
+Samantha has found a pair with the drawn card
+Samantha books the 10.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 6.
+Hammy has found a pair with the drawn card
+Hammy books the A.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws 10.
+
+Hammy asks - Do you have a 6?
+Samantha says - Go Fish.
+Hammy draws 6.
+Hammy has found a pair with the drawn card
+Hammy books the 6.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws 3.
+Samantha has found a pair with the drawn card
+Samantha books the 10.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 7.
+Hammy has found a pair with the drawn card
+Hammy books the 6.
+
+Samantha asks - Do you have a 3?
+Hammy says - Go Fish.
+Samantha draws 5.
+Samantha has found a pair with the drawn card
+Samantha books the 3.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws Q.
+Hammy has found a pair with the drawn card
+Hammy books the 7.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws 10.
+Samantha has found a pair with the drawn card
+Samantha books the 5.
+
+Hammy asks - Do you have a 4?
+Samantha says - Go Fish.
+Hammy draws 4.
+Hammy has found a pair with the drawn card
+Hammy books the 4.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws 7.
+Samantha has found a pair with the drawn card
+Samantha books the 10.
+
+Hammy asks - Do you have a Q?
+Samantha says - Go Fish.
+Hammy draws 6.
+
+Samantha asks - Do you have a 8?
+Hammy says - Go Fish.
+Samantha draws Q.
+Samantha has found a pair with the drawn card
+Samantha books the 7.
+
+Samantha wins the game with 22pairs!
+Samantha book: Ac Ad 5s 0s 9s 0s 3h 0s 2s 0s Qc 0s 7h 0s 9c 0s 4c 0s 2h 0s Qh 0s 7s 0s 3d 0s 9d 0s Kh 0s 8d 0s 10h 10d 10s 0s 3c 0s 5h 0s 10c 0s 7c 0s 
+Hammy book: 2d 2c 8c 8s Ah 0s 5d 0s Ks 0s 4h 0s Kc 0s 5c 0s Jc Jd 9h 0s 6h 0s Kd 0s Js 0s 3s 0s Jh 0s As 0s 6c 0s 6d 0s 7d 0s 4s 4d 

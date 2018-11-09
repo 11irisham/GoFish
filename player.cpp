@@ -16,20 +16,18 @@ void Player::addCard(Card c) {
 }
 
 void Player::bookCards(Card c1, Card c2) {
-    myBook.push_back(c1);
-    myBook.push_back(c2);
+    myBook.push_back(removeCardFromHand(c1));
+    myBook.push_back(removeCardFromHand(c2));
 }
 
 bool Player::checkHandForBook(Card &c1, Card &c2) {
     int size = myHand.size();
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            if (i != j) {
-                if (myHand[i].getRank() == myHand[j].getRank()) {
-                    c1 = myHand[i];
-                    c2 = myHand[j];
-                    return true;
-                }
+    for (int i = 0; i < size-1; i++) {
+        for (int j = 1; j < size; j++) {
+            if (myHand.at(i).getRank() == myHand.at(j).getRank()) {
+                c1 = myHand.at(i);
+                c2 = myHand.at(j);
+                return true;
             }
         }
     }
@@ -39,7 +37,7 @@ bool Player::checkHandForBook(Card &c1, Card &c2) {
 bool Player::rankInHand(Card c) const {
     int size = myHand.size();
     for (int i = 0; i < size; i++) {
-        if (myHand[i].getRank() == c.getRank()) {
+        if (myHand.at(i).getRank() == c.getRank()) {
             return true;
         }
     }
@@ -53,13 +51,13 @@ Card Player::chooseCardFromHand() const {
         rand1 = rand() % size;
     }
 
-    return myHand[rand1];
+    return myHand.at(rand1);
 }
 
 Card Player::removeCardFromHand(Card c) {
     for (int i = 0; i < myHand.size(); i++) {
-        if (c.getRank() == myHand[i].getRank()) {
-            Card returnCard = myHand[i];
+        if (c == myHand.at(i)) {
+            Card returnCard = myHand.at(i);
             myHand.erase(myHand.begin()+i);
             return returnCard;
         }
@@ -68,17 +66,24 @@ Card Player::removeCardFromHand(Card c) {
 
 string Player::showHand() const {
     int size = myHand.size();
+    string s;
+
     for (int i = 0; i < size; i++) {
-        cout << myHand.at(i);
+        s += myHand.at(i).toString();
     }
+
+    return s;
 }
 
 string Player::showBooks() const {
     int size = myBook.size();
-    for (int i = 0; i < size; i++)
-    {
-        cout << myBook.at(i);
+    string s;
+
+    for (int i = 0; i < size; i++) {
+        s += myBook.at(i).toString();
     }
+
+    return s;
 }
 
 int Player::getHandSize() const {
